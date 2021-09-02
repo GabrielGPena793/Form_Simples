@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/fotinha.jpg" alt="logo">
+        <h2>Assine nossa newsletter</h2>
+    </header>
+    <section id="formulario">
+        <form action="#">
+            <div class="nome-email"   >
+                <label for="email">Nome </label>
+                <input type="email" name="email" id="email" placeholder="nome@email.com">
+                <label for="nome">Email </label>
+                <input type="text" name="nome" id="nome" placeholder="Como gostaria de ser chamado(a)?">
+            </div>
+            <div id="assuntos">
+                <h4>Assuntos que mais te interessam</h4>
+                <input type="checkbox" name="" id="teste">
+                <label for="teste">Esportes</label>
+                <input type="checkbox" name="" id="teste2">
+                <label for="teste2">Moda</label>
+                <input type="checkbox" name="" id="teste3">
+                <label for="teste3"> Educação</label>
+            </div>
+            <div id="frequencia">
+                <h4>Frequência</h4>
+                <input type="radio" value="Semanal" name="frequencia">Semanal<br>
+                <input type="radio" value="Mensal" name="frequencia">Mensal<br>
+                <input type="radio" value="Bimestral" name="frequencia">Bimestral<br> 
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button> 
+            </div> 
+        </form>
+    </section>           
+</body>
+</html>
