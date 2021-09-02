@@ -32,10 +32,16 @@ h2{
 
 
 header img{
-    
     width: 150px;
-    
+    animation: pulse alternate 2s infinite ;
+    transform: scale(1);
 
+}
+
+@keyframes pulse {
+    from {transform:scale(1);}
+    to {transform: scale(1.10);}
+    
 }
 
 /* ============ form ================== */
