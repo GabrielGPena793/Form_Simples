@@ -78,7 +78,7 @@ div.nome-email input{
     margin: 20px 0;
 }
 
-#assuntos label,input {
+#assuntos label, input {
     font-family: 'Lobster', cursive; ;
     margin-left: 6px ;
 }
@@ -96,12 +96,17 @@ div#assuntos input{
     margin-bottom: 20px;
 
 }
+
+
 #frequencia h4 {
 
     margin: 5px 0;
 
 }
 
+#frequencia label{
+    margin-left: 15px;
+} 
 
 #frequencia input,label{
     margin: 10px 0;
