@@ -121,6 +121,15 @@ div#assuntos input{
 
 }
 
+#frequencia .bolinha{
+    position: relative;
+    left: -9.6px;
+}
+
+#frequencia .bolinha-um{
+    position: relative;
+    left: -3px;
+}
 
 button{
     padding: 5px;
